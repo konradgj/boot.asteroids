@@ -18,6 +18,7 @@ def main():
     while True:
         screen.fill(pygame.Color(0, 0, 0))
 
+        player.update(dt)
         player.draw(screen)
 
         pygame.display.flip()
